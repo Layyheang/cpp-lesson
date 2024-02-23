@@ -33,7 +33,6 @@ int main(){
     int y = iop.input();
     int result = multiply.compute(x, y);
     iop.display(result);
-    cout << "Hello";
     return 0;
 
 }
