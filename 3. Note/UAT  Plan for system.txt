@@ -1,0 +1,51 @@
+Objects in Library Management System:
+
+
+- Book, Magazine (Class 1)
+ + attributes:
+  - title
+  - year_of_publication
+  - author
+  - category
+  - number_of_pages
+  - language
+ + behavior
+  - edit()
+  - add()
+
+- Bookshelf
+ + attributes 
+  - floor
+  - section
+  - number_of_book 
+  - language 
+  - category
+  
+  
+- Librarian
+
++ attributes:
+  - name
+  - gender
+  - contact
+  - id
+  - title
+- Student, Teacher, Member, Non-Member
+  - name
+  - gender
+  - dob
+  - year_of_study
+  - role
+- Loan Card
+  - loan_card_id
+  - member_id
+  - book_id
+  - loan_date
+  - return_date
+  - remark
+- Member Card
+  - member_id
+  - issue_date
+  - expiry_date
+  - authorizer
+  - type_of_card

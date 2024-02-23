@@ -1,0 +1,76 @@
+Objects in Library Management System:
+_ Class 1
+ + attributes:
+  - language
+  - category
+
++class1 book
+ > attributes:
+ - title
+ - year_of_publication
+ - author
+ - number_of_pages
+ > behavior
+  - edit()
+  - add()
+
++class1 bookshelf
+ > attributes:
+ - floor
+ - section
+ - number_of_book 
+> behavior
+  - edit()
+  - add()
+
+_class 2 
+ > attributes:
+ - name
+ - gender
+ - contact 
+ >behavior
+ - edit
+
++class2 librarian 
+ > attributes 
+ - ID
+ - title
+ > behavior
+ - add 
+ - edit
+
++class2 stdent , teacher , Member, non-member
+ > attributes:
+ - dob 
+ - year_of_study 
+ > behavior
+ - add 
+ - edit 
+
+_class3 
+ > attributes 
+ - member_ID
+ - issue_date 
+ - expiry_date 
+ > behavior 
+ - edit 
+ 
++class3 loan_card
+ > attributes
+ - loan_card_ID
+ - book_ID
+ - loan_date 
+ - return_date 
+ - remark 
+ > brhavior
+ - add
+ - edit 
+
++class3 member_card 
+ > attributes
+ - authoirzer 
+ - type_of_page 
+ > behavior 
+ - edit 
+
+
